@@ -10,7 +10,16 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.5.4",
     "nuxt": "^3.13.0",
+    "pinia": "^2.2.2",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@vueuse/core": "^11.0.3",
+    "@vueuse/nuxt": "^11.0.3"
+  },
+  "overrides": {
     "vue": "latest"
   }
 }
